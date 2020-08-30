@@ -29,12 +29,35 @@ To create a new anaconda environment, download [conda_requirements.txt](https://
 To install the packages with pip, download [requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/requirements.txt) and enter the following command:  
 ```
 <pip install -r requirements.txt>
-```  
+```
 ## EDA Highlights
+**Average charges of the different age groups:** 
+![alt text](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/img/charts/Charges-Age-Groups.png "Charges Age Groups")
+***
+**Charges for Smoker and Non smokers:**
+![alt text](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/img/charts/Smoker-vs-NonSmoker.png "Smokers vs. Non Smokers")
+***
+**Distribution BMI Categories and their corresponding charges:**
+![alt text](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/img/charts/BMI-Distribution%26Charges.png "BMI Categories & Charges")
+***
 
-## Model Set up
-Lasso, ElasticNet, Linear Regression, LinearRegression, KNeighborsRegressor,GradientBoostingRegressor, DecisionTreeRegressor, RandomForestRegressor  
+## Tested Models
+* Lasso
+* ElasticNet
+* Linear Regression
+* LinearRegression
+* KNeighborsRegressor
+* GradientBoostingRegressor
+* DecisionTreeRegressor
+* RandomForestRegressor  
+
 ## Model Performance
+**Overview of the R2-scores of the different models**
+![alt text](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/img/charts/Model%20Scores.png "R2 scores")
+***
+**Results of the final model with tuned Hyperparameters:**
+* Best Model's average MAE: 2486.436
+* Best Model's average R2: 0.859
 
 ## Resources
 * Link to Data: 
