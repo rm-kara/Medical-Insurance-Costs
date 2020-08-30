@@ -1,4 +1,24 @@
 # Medical Insurance Costs
+![GitHub repo size](https://img.shields.io/github/repo-size/rm-kara/Medical-Insurance-Costs)
+![GitHub stars](https://img.shields.io/github/stars/rm-kara/Medical-Insurance-Costs)
+![GitHub contributors](https://img.shields.io/github/contributors/rm-kara/Medical-Insurance-Costs)
+![GitHub forks](https://img.shields.io/github/forks/rm-kara/Medical-Insurance-Costs)
+
+## Project Overview
+
+## Getting Started
+
+### Prerequisites
+
+### Installing
+
+## EDA Highlights
+
+## Model Set up
+
+## Model Performance
+
+## Resources
 * Link to Data: 
     - [Kaggle Dataset](https://www.kaggle.com/mirichoi0218/insurance)
 * BMI Wikipedia: 
