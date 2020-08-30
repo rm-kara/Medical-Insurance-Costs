@@ -9,19 +9,21 @@
 ## Getting Started
 
 ### Prerequisites
-**Python Version:** 3.7
-**Packages:** 
-    - pandas 1.1.0 
-    - numpy 1.19.1
-    - scikit-learn 0.23.2
-    - matplotlib 3.3.1
-    - seaborn 0.10.1
+**Python Version:** 3.7  
+**Packages:**
+* pandas 1.1.0 
+* numpy 1.19.1
+* scikit-learn 0.23.2
+* matplotlib 3.3.1
+* seaborn 0.10.1
 
 ### Installing
-To create a new anaconda environment from the included [conda_requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/conda_requirements.txt), use this command:
-    - conda create --name <env> --file conda_requirements.txt
-To install the packages with pip, use the [requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/requirements.txt) and enter the following command:
-    - pip install -r requirements.txt
+To create a new anaconda environment, use [conda_requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/conda_requirements.txt) and enter the following command:
+* conda create --name <env> --file conda_requirements.txt  
+
+To install the packages with pip, use [requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/requirements.txt) and enter the following command:
+* pip install -r requirements.txt
+    
 ## EDA Highlights
 
 ## Model Set up
