@@ -5,6 +5,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/rm-kara/Medical-Insurance-Costs)
 
 ## Project Overview
+In this project I analyzed a data set that deals with the **treatment costs of various patients**.  
+The data was cleaned using **Pandas** and **Numpy**, visualizations were developed with **Seaborn** and **Matplotlib**.  
+Transformational steps such as encoding categorical- and numerical variables were implemented by using Scikit-learn's **Pipeline** module.  
+Different models were then compared and their performance evaluated using **cross-validation**. Finally, the best model was selected and optimized using **GridSearchCV**.
 
 ## Getting Started
 
@@ -17,17 +21,17 @@
 * matplotlib 3.3.1
 * seaborn 0.10.1
 
-### Installing
-To create a new anaconda environment, use [conda_requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/conda_requirements.txt) and enter the following command:
+### Installing Requirements
+To create a new anaconda environment, download [conda_requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/conda_requirements.txt) and enter the following command:
 * conda create --name <env> --file conda_requirements.txt  
 
-To install the packages with pip, use [requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/requirements.txt) and enter the following command:
+To install the packages with pip, download [requirements.txt](https://github.com/rm-kara/Medical-Insurance-Costs/blob/master/requirements.txt) and enter the following command:
 * pip install -r requirements.txt
     
 ## EDA Highlights
 
 ## Model Set up
-
+Lasso, ElasticNet, Linear Regression, LinearRegression, KNeighborsRegressor,GradientBoostingRegressor, DecisionTreeRegressor, RandomForestRegressor  
 ## Model Performance
 
 ## Resources
