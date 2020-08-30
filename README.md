@@ -45,7 +45,6 @@ To install the packages with pip, download [requirements.txt](https://github.com
 * Lasso
 * ElasticNet
 * Linear Regression
-* LinearRegression
 * KNeighborsRegressor
 * GradientBoostingRegressor
 * DecisionTreeRegressor
