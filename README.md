@@ -4,10 +4,20 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/rm-kara/Medical-Insurance-Costs)
 ![GitHub forks](https://img.shields.io/github/forks/rm-kara/Medical-Insurance-Costs)
 
+## Table of contents
+* [Project Overview](#project-overview)
+* [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installing Requirements](#installing-requirements)
+* [EDA Highlights](#eda-highlights)
+* [Tested Models](#tested-models)
+* [Model Performance](#model-performance)
+* [Resources](#resources)
+
 ## Project Overview
 In this project I analyzed a data set that deals with the **treatment costs of various patients**.  
 The data was cleaned using **Pandas** and **Numpy**, visualizations were developed with **Seaborn** and **Matplotlib**.  
-Transformational steps such as encoding categorical- and numerical variables were implemented by using Scikit-learn's **Pipeline** module.  
+Transformational steps such as encoding categorical- and numerical variables were implemented by using Scikit-learn's **Pipeline, StandardScaler, OneHotEncoder and ColumnTransformer** modules.  
 Different models were then compared and their performance evaluated using **cross-validation**. Finally, the best model was selected and optimized using **GridSearchCV**.
 
 ## Getting Started
